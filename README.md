@@ -1,9 +1,17 @@
 # IMSA Music
 
-**[Live site: https://funblaster22.github.io/IMSAband/](https://funblaster22.github.io/IMSAband/)**
+**[Live site: https://ethandawes.github.io/IMSAband/](https://ethandawes.github.io/IMSAband/)**
 
-Welcome to the IMSA music website! This project is licensed under GPL-3, so you are free to modify and distribute it
-as long as you include the license and source code.
+Welcome to the IMSA music website!
+
+**Home page**
+![Home page](./docs/home.png)
+
+**One of our orchestra pages**
+![Chamber Strings](./docs/chamber-str.png)
+
+**One of our concerts**
+![Concert page](./docs/concert.png)
 
 ### Project structure
 
@@ -30,3 +38,6 @@ I decided against Jekyl because it is written in Ruby, which I am unfamiliar wit
 I also figured it would be easier to incorporate extra frameworks with 11ty since it uses javascript.
 
 Here I'm documenting the thinking I did regarding the adoption of [webc](https://github.com/11ty/webc). It's really nice how it [integrates with 11ty](https://www.11ty.dev/docs/languages/webc/) and allows for JavaScript, but I've already invested a lot of time into Nunjucks & solving problems with it, and I feel like switching would raise more problems and I don't have that many "components". If I really need to make a component with scoped styles, I would use [declarative shadow DOM](https://web.dev/declarative-shadow-dom/).
+
+This project is licensed under GPL-3, so you are free to modify and distribute it
+as long as you include the license and source code.

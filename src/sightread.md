@@ -2,7 +2,7 @@
 title: Practice
 eleventyNavigation:
     key: Practice
-    url: https://funblaster22.github.io/PitchRead/
+    url: https://ethandawes.github.io/PitchRead/
     order: 105
 permalink: false
 ---
